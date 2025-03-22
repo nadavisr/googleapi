@@ -1,0 +1,92 @@
+
+https://chatgpt.com/share/67def651-9e54-8012-a00a-f20ffcfd2f29
+
+The actual link to open Google Cloud Console is:
+
+🔗 https://console.cloud.google.com/
+
+If you want to go directly to the Gmail API page to enable it, use:
+
+🔗 https://console.cloud.google.com/apis/library/gmail.googleapis.com
+
+Let me know if you need help setting up the API! 🚀
+
+Step-by-Step Guide to Enable Gmail API in Google Developer Console
+1️⃣ Go to Google Cloud Console
+Open Google Cloud Console.
+
+Sign in with your Google account.
+
+2️⃣ Create a New Project
+Click on the project selector at the top.
+
+Click "New Project".
+
+Enter a Project Name (e.g., Gmail API Project).
+
+Click Create.
+
+3️⃣ Enable the Gmail API
+Go to the Gmail API page.
+
+Click "Enable" to activate the API for your project.
+
+4️⃣ Create OAuth Credentials
+In the left menu, go to "APIs & Services" → "Credentials".
+
+Click "Create Credentials" → "OAuth Client ID".
+
+If asked to configure consent screen, do this first:
+
+Choose "External" (for personal use).
+
+Set up the basic app name, email, and scope.
+
+Click Save and Continue.
+
+Back in the OAuth creation:
+
+Select Application type: "Desktop app".
+
+Click Create.
+
+5️⃣ Download Credentials
+After creating the OAuth client, click "Download JSON".
+
+Rename the file to credentials.json.
+
+Store it in the same directory as your Python script.
+
+3️⃣ Configure OAuth Consent Screen
+Before creating credentials, you must set up the OAuth consent screen:
+
+In the left menu, go to "APIs & Services" → "OAuth consent screen".
+
+Choose "External" (if using for personal Gmail).
+
+Click Create and fill in:
+
+App Name (e.g., "Gmail API App").
+
+User Support Email (your Gmail).
+
+Developer Contact Email (your Gmail).
+
+Click Save and Continue.
+
+In the Scopes section, click Add or Remove Scopes → Search for gmail → Select:
+
+
+4️⃣ Create OAuth Credentials
+Go to "APIs & Services" → "Credentials".
+
+Click "Create Credentials" → "OAuth Client ID".
+
+Select Application Type: "Desktop app".
+
+Click Create → Download JSON.
+
+Rename the file to credentials.json and save it in your project folder.
+
+
+
